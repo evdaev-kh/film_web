@@ -1,0 +1,121 @@
+
+h1 {
+    margin-top: 2;
+  }
+  
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+    text-align: center;
+    font-family: 'Baloo 2', cursive, serif;
+}
+  
+p {
+    display: block;
+}
+
+.Intro {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+  animation: Intro 0.8s ease;
+}
+
+/* @keyframes Intro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+.topContainer h1{
+  text-align: left;
+}
+
+.topContainer p{
+  text-align: left;
+
+}
+
+.topContainer hr {
+  width: 100%;
+  color: black;
+  opacity: 0.5;
+
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: none;
+  padding: 0px;
+  height: fit-content;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar li {
+  list-style: none;
+  padding: 0px 14px 0px 0px;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+.Navbar li:hover {
+  background-color: grey;
+  color:#EEEEEE;
+}
+
+.Navbar a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.Navbar a:hover{
+  color: #EEEEEE;;
+  text-decoration: none;
+}
+
+.Image {
+  padding: 2px 2px 2px 2px;
+  transition: transform 0.5s ease-in;
+  justify-content: center;
+
+}
+
+.Image:hover {
+  transform: scale(1.5);
+  
+}
+
+  
+/* .Birds {
+  animation: Birds 2.8s ease-in-out;
+}
+
+@keyframes Birds {
+  from {
+    opacity: 1;
+    width: 200%;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+} */
+
+  
+  
+ 
+  
+ 
