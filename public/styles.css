@@ -4,14 +4,20 @@ h1 {
   }
   
 body {
-    margin: 0;
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
     text-align: center;
     font-family: 'Baloo 2', cursive, serif;
-}
+    background-image: url('./photos/birds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
 p {
     display: block;
+}
+
+.Main {
+  background-image: url('./photos/birds.jpg');
 }
 
 .Intro {
@@ -88,31 +94,10 @@ p {
 
 .Image {
   padding: 2px 2px 2px 2px;
-  transition: transform 0.5s ease-in;
   justify-content: center;
 
 }
 
-.Image:hover {
-  transform: scale(1.5);
-  
-}
-
-  
-/* .Birds {
-  animation: Birds 2.8s ease-in-out;
-}
-
-@keyframes Birds {
-  from {
-    opacity: 1;
-    width: 200%;
-  }
-  to {
-    opacity: 1;
-    width: 100%;
-  }
-} */
 
   
   

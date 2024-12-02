@@ -4,9 +4,8 @@ import React from "react";
 function Navigation() {
     return (
         <div className="Navbar">
-                <li>  <a href=""> Portfolio </a> </li>
-                <li>  <a href="/Arizona"> Arizona </a> </li>
-                <li>  <a href="/Utah"> Utah </a> </li>
+                <li>  <a href=""> CV </a> </li>
+                <li>  <a href=""> Morphogen Project </a>  </li>
                 <li>  <a href="/Boston"> Boston </a> </li>
         </div>
     )

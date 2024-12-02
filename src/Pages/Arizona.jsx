@@ -2,7 +2,7 @@ import React from "react";
 
 function Arizona() {
     return (
-        <h1> Welcome to Sedona! </h1>
+        <h1> Welcome to Sedona! Nati is Xuygir! </h1>
     )
 }
 

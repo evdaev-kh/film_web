@@ -3,7 +3,7 @@ import Image from "../components/Image";
 
 function MainPage()  {
     return (
-        <div className="App">
+        <div className="Main">
             <Image />
         </div>
     );
