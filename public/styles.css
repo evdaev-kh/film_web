@@ -4,20 +4,24 @@ h1 {
   }
   
 body {
-    /* background-color: #EEEEEE; */
-    text-align: center;
-    font-family: 'Baloo 2', cursive, serif;
-    background-image: url('./photos/birds.jpg');
+    background-image: url('/photos/birds.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
 p {
     display: block;
 }
 
-.Main {
-  background-image: url('./photos/birds.jpg');
+.MainPage  body{
+  /* background-image: url('./photos/birds.jpg'); */
+  background-color: #EEEEEE;
+  text-align: center;
+  font-family: 'Baloo 2', cursive, serif;
+  /* background-image: url('./photos/birds.jpg'); */
+  background-image: url('/home/khai/film-web/public/photos/birds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Intro {
@@ -27,22 +31,18 @@ p {
   animation: Intro 0.8s ease;
 }
 
-/* @keyframes Intro {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-} */
+.Intro h1{
+  color: black;
+}
 
 .topContainer h1{
   text-align: left;
 }
 
-.topContainer p{
+.topContainer p {
   text-align: left;
-
+  max-width: 500px;
+  font-size: 18px;
 }
 
 .topContainer hr {
@@ -71,13 +71,13 @@ p {
 .Navbar li {
   list-style: none;
   padding: 0px 14px 0px 0px;
-  text-align: left;
-  font-size: 15px;
+  text-align: center;
+  font-size: 18px;
 }
 
 
 .Navbar li:hover {
-  background-color: grey;
+  background-color: purple;
   color:#EEEEEE;
 }
 
@@ -98,9 +98,38 @@ p {
 
 }
 
+.Bio_Body body {
+  background-color: #EEEEEE;
+  text-align: center;
+  font-family: 'Baloo 2', cursive, serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  
-  
- 
-  
- 
+.Bio_Body {
+  text-align: center;
+  /* height: 50%;
+  width: 50%; */
+  background-color: hsl(0, 0%, 100%, 0.85);
+  padding: 1rem;
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+
+.Bio_Body h2 {
+  right: 150px;
+  top: 100px;
+  color: purple;
+}
+
+.Bio_Body p {
+  text-align: left;
+  max-width: 800px;
+  font-family: 'Baloo 2', cursive, serif;
+  font-size: 18px;
+}
+
+.Bio_Body img {
+  width: 50%;
+}

@@ -17,7 +17,7 @@ function Boston() {
 
     return (
         <div> 
-            <h1> Welcome to Boston!</h1>
+            
             {bostonPics.map(pic => (
                 <img className="Image" src={"../photos/Boston/" + pic} width="20%" height="20%" onClick={pic => imageGallery(pic)}/>
             ))}

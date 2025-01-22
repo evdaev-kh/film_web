@@ -9,7 +9,10 @@ function Image() {
             <div className="Intro" >
                 <h1> I'm Khai</h1>
                 <hr align="left" />
-                <p> An amateur film photographer.</p>
+                <p>ἕν οἶδα, ὅτι οὐδὲν οἶδα </p>
+                <p>
+                Here you'll find my academic bio, links to code and some quibbles about mathematics, CS and philosophy.
+                </p>
                 <Navigation />
             </div>
         </div>
